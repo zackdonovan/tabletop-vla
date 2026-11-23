@@ -1,0 +1,10 @@
+{
+  "simulation": "MuJoCo 4.0.1",
+  "episodes": 420,
+  "failures": 0,
+  "skipped_visual_labels": 0,
+  "training_examples": 12650,
+  "loss": 0.0028930737048433013,
+  "epochs": 144,
+  "seconds": 6.787537775999226
+}

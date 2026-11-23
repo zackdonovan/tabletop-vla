@@ -1,0 +1,8 @@
+.venv/
+.deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+preview/
+*-records.json
+records.json

@@ -1,0 +1,9 @@
+{
+  "episodes": 360,
+  "rows": 24600,
+  "teacher_failures": 0,
+  "unseen_features": 0,
+  "loss": 0.0011338953112509829,
+  "epochs": 220,
+  "seconds": 127.77566433599713
+}

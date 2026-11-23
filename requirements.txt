@@ -1,0 +1,4 @@
+mujoco==4.0.1
+numpy==2.5.5
+scikit-learn==1.8.0
+Pillow==13.0.0

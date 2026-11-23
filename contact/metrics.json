@@ -1,0 +1,95 @@
+{
+  "total_wall_seconds": 10.254086305998499,
+  "scores": {
+    "contact_expert": {
+      "games": 72,
+      "successes": 72,
+      "layouts": 24,
+      "checks_passed": {
+        "lift": 72,
+        "bilateral": 72,
+        "carry": 72,
+        "zone": 72,
+        "floor": 72,
+        "stable": 72,
+        "released": 72,
+        "others": 72
+      },
+      "lift_m": {
+        "min": 0.12566804687107816,
+        "median": 0.12598541234538568,
+        "max": 0.12625114860106704
+      },
+      "carry_m": {
+        "min": 0.22173200332413504,
+        "median": 0.5284972119338172,
+        "max": 0.9432453553221135
+      },
+      "dist_zone_m": {
+        "min": 0.00034299502699399435,
+        "median": 0.0035388776673706767,
+        "max": 0.011089829266874672
+      },
+      "other_object_displacement_m": {
+        "min": 0.0,
+        "median": 1.7411069465289886e-10,
+        "max": 1.263719651261168e-06
+      },
+      "contact_lift_samples": {
+        "min": 83.0,
+        "median": 83.0,
+        "max": 84.0
+      },
+      "seconds": {
+        "min": 0.05747713900200324,
+        "median": 0.06561897349820356,
+        "max": 0.13121372000023257
+      }
+    },
+    "open_finger_control": {
+      "games": 72,
+      "successes": 0,
+      "layouts": 24,
+      "checks_passed": {
+        "lift": 0,
+        "bilateral": 0,
+        "carry": 0,
+        "zone": 0,
+        "floor": 72,
+        "stable": 72,
+        "released": 72,
+        "others": 72
+      },
+      "lift_m": {
+        "min": -1.6656814816329302e-14,
+        "median": 9.65755253545808e-14,
+        "max": 2.743338542443574e-11
+      },
+      "carry_m": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.0
+      },
+      "dist_zone_m": {
+        "min": 0.22124608509059807,
+        "median": 0.5263008330100705,
+        "max": 0.9350862616883321
+      },
+      "other_object_displacement_m": {
+        "min": 0.0,
+        "median": 1.6772228227327982e-10,
+        "max": 1.2637235871128248e-06
+      },
+      "contact_lift_samples": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.0
+      },
+      "seconds": {
+        "min": 0.04805019800551236,
+        "median": 0.0546337380001205,
+        "max": 0.1194344719988294
+      }
+    }
+  }
+}

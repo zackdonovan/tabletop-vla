@@ -1,0 +1,252 @@
+{
+  "timing_note": "policy timing excludes RGB read, environment median includes render except expert/fixed image; simulated step=0.16s",
+  "test_wall_seconds": 29.268842268997105,
+  "scores": {
+    "seen": {
+      "expert": {
+        "episodes": 72,
+        "success": 72,
+        "rate": 1.0,
+        "cluster_ci95": [
+          1.0,
+          1.0
+        ],
+        "success_by_template": {
+          "0": 36,
+          "1": 36
+        },
+        "supplied_success": 72,
+        "grasped": 72,
+        "reached": 72,
+        "median_steps": 21.0,
+        "policy_median_ms": 0.0117,
+        "env_median_ms": 0.1267,
+        "failures": {
+          "wrong_puck": 0,
+          "wrong_zone": 0,
+          "timeout": 0
+        }
+      },
+      "full": {
+        "episodes": 72,
+        "success": 72,
+        "rate": 1.0,
+        "cluster_ci95": [
+          1.0,
+          1.0
+        ],
+        "success_by_template": {
+          "0": 36,
+          "1": 36
+        },
+        "supplied_success": 72,
+        "grasped": 72,
+        "reached": 72,
+        "median_steps": 21.0,
+        "policy_median_ms": 0.0773,
+        "env_median_ms": 2.6514,
+        "failures": {
+          "wrong_puck": 0,
+          "wrong_zone": 0,
+          "timeout": 0
+        }
+      },
+      "shuffle": {
+        "episodes": 72,
+        "success": 0,
+        "rate": 0.0,
+        "cluster_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_by_template": {
+          "0": 0,
+          "1": 0
+        },
+        "supplied_success": 72,
+        "grasped": 36,
+        "reached": 40,
+        "median_steps": 21.0,
+        "policy_median_ms": 0.0795,
+        "env_median_ms": 2.6454,
+        "failures": {
+          "wrong_puck": 36,
+          "wrong_zone": 36,
+          "timeout": 0
+        }
+      },
+      "no_language": {
+        "episodes": 72,
+        "success": 0,
+        "rate": 0.0,
+        "cluster_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_by_template": {
+          "0": 0,
+          "1": 0
+        },
+        "supplied_success": 72,
+        "grasped": 24,
+        "reached": 32,
+        "median_steps": 21.0,
+        "policy_median_ms": 0.0739,
+        "env_median_ms": 2.6684,
+        "failures": {
+          "wrong_puck": 48,
+          "wrong_zone": 24,
+          "timeout": 0
+        }
+      },
+      "fixed_vision": {
+        "episodes": 72,
+        "success": 0,
+        "rate": 0.0,
+        "cluster_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_by_template": {
+          "0": 0,
+          "1": 0
+        },
+        "supplied_success": 0,
+        "grasped": 8,
+        "reached": 22,
+        "median_steps": 56.0,
+        "policy_median_ms": 0.0331,
+        "env_median_ms": 0.1346,
+        "failures": {
+          "wrong_puck": 12,
+          "wrong_zone": 8,
+          "timeout": 52
+        }
+      },
+      "paired_scenes_all_commands_success": 12
+    },
+    "test": {
+      "expert": {
+        "episodes": 72,
+        "success": 72,
+        "rate": 1.0,
+        "cluster_ci95": [
+          1.0,
+          1.0
+        ],
+        "success_by_template": {
+          "2": 36,
+          "3": 36
+        },
+        "supplied_success": 72,
+        "grasped": 72,
+        "reached": 72,
+        "median_steps": 18.0,
+        "policy_median_ms": 0.011,
+        "env_median_ms": 0.1231,
+        "failures": {
+          "wrong_puck": 0,
+          "wrong_zone": 0,
+          "timeout": 0
+        }
+      },
+      "full": {
+        "episodes": 72,
+        "success": 72,
+        "rate": 1.0,
+        "cluster_ci95": [
+          1.0,
+          1.0
+        ],
+        "success_by_template": {
+          "2": 36,
+          "3": 36
+        },
+        "supplied_success": 72,
+        "grasped": 72,
+        "reached": 72,
+        "median_steps": 18.0,
+        "policy_median_ms": 0.075,
+        "env_median_ms": 2.8939500000000002,
+        "failures": {
+          "wrong_puck": 0,
+          "wrong_zone": 0,
+          "timeout": 0
+        }
+      },
+      "shuffle": {
+        "episodes": 72,
+        "success": 0,
+        "rate": 0.0,
+        "cluster_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_by_template": {
+          "2": 0,
+          "3": 0
+        },
+        "supplied_success": 72,
+        "grasped": 0,
+        "reached": 15,
+        "median_steps": 18.0,
+        "policy_median_ms": 0.08945,
+        "env_median_ms": 2.7032,
+        "failures": {
+          "wrong_puck": 72,
+          "wrong_zone": 0,
+          "timeout": 0
+        }
+      },
+      "no_language": {
+        "episodes": 72,
+        "success": 24,
+        "rate": 0.3333333333333333,
+        "cluster_ci95": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "success_by_template": {
+          "2": 12,
+          "3": 12
+        },
+        "supplied_success": 72,
+        "grasped": 24,
+        "reached": 33,
+        "median_steps": 19.5,
+        "policy_median_ms": 0.0753,
+        "env_median_ms": 2.7506,
+        "failures": {
+          "wrong_puck": 48,
+          "wrong_zone": 0,
+          "timeout": 0
+        }
+      },
+      "fixed_vision": {
+        "episodes": 72,
+        "success": 0,
+        "rate": 0.0,
+        "cluster_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_by_template": {
+          "2": 0,
+          "3": 0
+        },
+        "supplied_success": 0,
+        "grasped": 5,
+        "reached": 13,
+        "median_steps": 56.0,
+        "policy_median_ms": 0.032,
+        "env_median_ms": 0.1336,
+        "failures": {
+          "wrong_puck": 6,
+          "wrong_zone": 5,
+          "timeout": 61
+        }
+      },
+      "paired_scenes_all_commands_success": 24
+    }
+  }
+}

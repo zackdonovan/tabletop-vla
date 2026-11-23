@@ -1,0 +1,198 @@
+{
+  "static": {
+    "expert": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 0,
+      "pad_jump_applied": 0,
+      "policy_p50_ms": 0.012738993973471224,
+      "policy_p95_ms": 0.03209400310879573,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "cache": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 0,
+      "pad_jump_applied": 0,
+      "policy_p50_ms": 0.09250950097339228,
+      "policy_p95_ms": 0.5681880989868602,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "track": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 0,
+      "pad_jump_applied": 0,
+      "policy_p50_ms": 0.9428130033484194,
+      "policy_p95_ms": 1.278808299321099,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "paired_delta": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "puck": {
+    "expert": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 72,
+      "pad_jump_applied": 0,
+      "policy_p50_ms": 0.014581994037143886,
+      "policy_p95_ms": 0.03578999821911565,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "cache": {
+      "trials": 72,
+      "success": 0,
+      "grasped": 0,
+      "puck_jump_applied": 72,
+      "pad_jump_applied": 0,
+      "policy_p50_ms": 0.0936619981075637,
+      "policy_p95_ms": 0.7095887038303593,
+      "failure": {
+        "wrong_puck": 72,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "track": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 72,
+      "pad_jump_applied": 0,
+      "policy_p50_ms": 0.8914650024962611,
+      "policy_p95_ms": 1.25938599667279,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "paired_delta": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "pad": {
+    "expert": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 0,
+      "pad_jump_applied": 72,
+      "policy_p50_ms": 0.012978998711332679,
+      "policy_p95_ms": 0.04222899733576924,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "cache": {
+      "trials": 72,
+      "success": 0,
+      "grasped": 72,
+      "puck_jump_applied": 0,
+      "pad_jump_applied": 72,
+      "policy_p50_ms": 0.08692150004208088,
+      "policy_p95_ms": 0.4458103016077018,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 72,
+        "timeout": 0
+      }
+    },
+    "track": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 0,
+      "pad_jump_applied": 72,
+      "policy_p50_ms": 0.849071002448909,
+      "policy_p95_ms": 1.1928122548852116,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "paired_delta": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "both": {
+    "expert": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 72,
+      "pad_jump_applied": 72,
+      "policy_p50_ms": 0.011927993909921497,
+      "policy_p95_ms": 0.02899650098697748,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "cache": {
+      "trials": 72,
+      "success": 0,
+      "grasped": 0,
+      "puck_jump_applied": 72,
+      "pad_jump_applied": 72,
+      "policy_p50_ms": 0.08924449502956122,
+      "policy_p95_ms": 0.3812838018347883,
+      "failure": {
+        "wrong_puck": 72,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "track": {
+      "trials": 72,
+      "success": 72,
+      "grasped": 72,
+      "puck_jump_applied": 72,
+      "pad_jump_applied": 72,
+      "policy_p50_ms": 0.9064615005627275,
+      "policy_p95_ms": 1.3002773983316727,
+      "failure": {
+        "wrong_puck": 0,
+        "wrong_pad": 0,
+        "timeout": 0
+      }
+    },
+    "paired_delta": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}
